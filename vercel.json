@@ -1,7 +1,7 @@
 {
     "version":2,
     "builds":[
-        {"src":"app.js", "use":"@vencel/node"}
+        {"src":"app.js", "use":"@vercel/node"}
     ],
     "routesx":[
         {"src":"/(.*)", "dest":"/app.js"}
