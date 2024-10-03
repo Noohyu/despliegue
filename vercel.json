@@ -4,7 +4,7 @@
         {"src":"app.js", "use":"@vencel/node"}
     ],
     "routesx":[
-        {"src":"/(*)", "dest":"/app.js"}
+        {"src":"/(.*)", "dest":"/app.js"}
     ],
     "env":{
         "NODE_ENV":"production"
